@@ -1,0 +1,35 @@
+{
+  "name": "video-player",
+  "version": "1.0.0",
+  "description": "Video Player in native videotag, keyboard and mouse controls with javascript.",
+  "source": "src/app.js",
+  "module": "dist/module.js",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanfuent-es/video-player.git"
+  },
+  "keywords": [
+    "videotag",
+    "video",
+    "videoplayer",
+    "html",
+    "video",
+    "native",
+    "javascript",
+    "controls"
+  ],
+  "author": "JuanFuent.es",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/juanfuent-es/video-player/issues"
+  },
+  "homepage": "https://github.com/juanfuent-es/video-player#readme",
+  "dependencies": {
+    "parcel": "^2.11.0"
+  }
+}
